@@ -3,7 +3,9 @@ import requests, json
 
 # 引用requests模块
 url = 'https://c.y.qq.com/soso/fcgi-bin/client_search_cp'
+
 singer = input('你喜欢的歌手是谁呢？')
+
 for x in range(6):
     
     params = {
